@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="assets/cs/style.css">
+    <style>
+        div{
+            width: 100%;
+            margin: 40px auto;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <main class="container-fluid">
+
+        <div class="area">
+            <form class="form-styling" id="form">
+                <input class=" mt-5 p-2 w-50" type="text" placeholder="Enter City">
+                <button class="p-1 px-2 mt-3 mx-3" type="submit"><i class="fas fa-search-location"></i></button>
+            </form>
+            
+            <div id="weather" class="text-center pb-4">
+                <div class="location">London, UK</div>
+                <div class="date">Saturday, 3 April 2021</div>
+                <div class="temp">19°C</div>
+                <div class="min-max">19°C/ 22°C</div>
+                <div class="desc">Haze</div>
+                <div class="humidity">Humidity: 20%</div>
+                <div class="wind">Wind Speed: 2.4km/h</div>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="assets/js/app.js"></script>
+    
+</body>
+</html>
