@@ -6,7 +6,7 @@ btn.addEventListener('click', (e)=>{
     const val = input.value;
     // console.log(val);
     if(val){
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${val}&appid=02b6a6c0f09a6ad4061f28f3423a4cf9`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${val}&appid=02b6a6c0f09a6ad4061f28f3423a4cf9`;
         
         fetch(url)
             .then(data => {
