@@ -73,7 +73,7 @@ function showInfo(obj){
 }
 
 
-// URL: http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=02b6a6c0f09a6ad4061f28f3423a4cf9
+// URL: https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=02b6a6c0f09a6ad4061f28f3423a4cf9
 // API key: 02b6a6c0f09a6ad4061f28f3423a4cf9
 // Made By: Nikita Negi
 // Date: 4th April, 2021
