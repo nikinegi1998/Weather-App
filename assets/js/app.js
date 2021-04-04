@@ -33,8 +33,9 @@ btn.addEventListener('click', (e)=>{
                 showInfo(obj);
                 
             })
-            .catch(error =>{
-                console.log("An error occurred"+error);
+            .catch(error =>{                
+                console.log("An error occurred");
+                alert("Enter valid city name");
             })
         
     }
