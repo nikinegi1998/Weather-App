@@ -7,4 +7,3 @@
 
 
 API request: http://openweathermap.org/ <br>
-Link: https://nikinegi1998.github.io/Weather-App/
